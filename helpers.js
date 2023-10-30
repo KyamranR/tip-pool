@@ -25,7 +25,7 @@ function appendTd(tr, value) {
   tr.append(newTd);
 }
 
-function appentDeleteBtn(tr, type){
+function appendDeleteBtn(tr, type){
   let newTd = document.createElement('td');
   newTd.className = 'deleteBtn';
   newTd.innerText = 'X';
