@@ -60,5 +60,11 @@ afterEach(function(){
     billAmtInput.value = '';
     tipAmtInput.value = '';
     allPayments = {};
+    paymentTbody.innerHTML = '';
+    serverTbody.innerHTML = '';
+    paymentId = 0;
+    summaryTds[0].innerHTML = '';
+    summaryTds[1].innerHTML = '';
+    summaryTds[2].innerHTML = '';
 })
 });
